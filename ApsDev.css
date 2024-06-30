@@ -1,0 +1,19 @@
+.navbar-Block-Service{
+    background-color: #537fff;
+}
+/* .Services-Container-Service{
+    margin-top: 94px;
+} */
+.Services-Name-WebDevelopment{
+    font-size: 27px;
+    font-weight: 600;
+}
+.Service-Logo{
+    width: 40px;
+    font-size: 50px;
+    color: #5BBCF3;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}

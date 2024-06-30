@@ -1,0 +1,320 @@
+*{
+    text-align: justify;
+}
+@media screen and (max-width:1221px  ) {
+    .content {
+        overflow:  hidden;
+    }
+    .nav-links {
+        gap: 6%;
+        font-size: 20px;
+    }
+    .dropdown{
+        padding: 0;
+    }
+    .heading-capability {
+        text-align: left;
+    }
+    .ContactUs-Info-Msg {
+        text-align: left;
+    }
+}
+@media screen and (max-width:1094px  ) {
+    .nav-links {
+        gap: 5%;
+        font-size: 19px;
+    }
+    .ProElite-Name {
+        width: fit-content;
+        font-size: 65px;
+    }
+    .Sliding-Names {
+        font-size: 29px;
+    }
+    .footer {
+        top: 70%;
+    }
+}
+@media screen and (max-width:974px  ) {
+    .footer {
+        top: 100%;
+    }
+}
+@media screen and (max-width:800px  ) {
+    .navbar-Block {
+        height: 70px;
+    }
+    .material-symbols-outlined {
+        line-height: .3;
+    }
+    .nav-links {
+        padding-top: 5%;
+        padding-left: 5%;
+        width: 100%;
+    }
+    .Logo{
+        width: 14%;
+    }
+    .Running-Name-Container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .RunningName-RightSide-Info {
+        margin-top: 8%;
+    }
+    .RunningName-Container-RightSide-Block {
+        margin-top: 40px;
+        width: auto;
+    }
+    .ProElite-Name {
+        font-size: 50px;
+    }
+    .Sliding-Names {
+        font-size: 25px;
+        margin-left: 5%;
+    }
+    .Contact-Us-Button {
+        width: 32%;
+        height: 63px;
+        font-size: 15px;
+        margin-top: 3%;
+    }
+    .RunningName-Container-LeftSide-Block {
+        width: auto;
+        height: 120%;
+    }
+    .FirstPage-LeftSide-Block-SlideImages {
+        width: 40%;
+        height: 98%;
+    }
+    .Running-Container-LeftSide-Scroll-Button {
+        color: #000000c9;
+        font-size: 23px;
+    }
+    .Services-Name {
+        font-size: 35px;
+        text-align: left;
+    }
+    /* .card{
+        flex:none;
+    } */
+    .card-group {
+        display: block;
+    }
+    .active {
+        margin-top: 0;
+    }
+    .img-Box-Size {
+        height: 60vh;
+    }
+    .TalkAbout-Box {
+        height: 35px;
+    }
+    .TalkAbout-Text {
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        text-align: end;
+        font-weight: 400;
+        margin-right: 3%;
+    }
+    .Services-Name-ServiceNow {
+        font-size: 30px;
+        text-align: left;
+    }
+    .footer {
+        top: 100%;
+    }
+    .Info-MainBox {
+        padding: 0;
+    }
+    .Main-Heading {
+        text-align: left;
+    }
+    .Heading-Info-SecondBox{
+        text-align: left;
+    }
+}
+@media screen and (max-width:769px  ) {
+    .footer {
+        top: 23%;
+    }
+}
+@media screen and (max-width:650px  ) {
+    .Main-Heading {
+        width: 300px;
+        font-size: 30px;
+    }
+    .more-Info {
+        font-size: 14px;
+        text-align: left;
+    }
+    .Heading-Info-SecondBox{
+        text-align: left;
+        font-size: 20px;
+    }
+    .Second-Box-ServiceNow {
+        flex-direction: column;
+        height: auto;
+        margin-top: 2%;
+    }
+    .card-title {
+        text-align: left;
+    }
+    .Capability-Container {
+        justify-content:space-between;
+    }
+    .CapabilitiesBoxes {
+        flex-direction: column;
+        height: auto;
+    }
+    .Col-Info {
+        width: 96vw;
+        border: none;
+        padding-left: 10%;
+    }
+    .ImgBox-For-Capability {
+        width: 113%;
+    }
+}
+@media screen and (max-width:600px  ) {
+    .Logo {
+        margin-left: 10.8%;
+        margin-top: -4%;
+        width: 33px;
+    }
+    .nav-name-service {
+        font-size: 19px;
+    }
+    .RunningName-RightSide-Info {
+        margin-top: 8%;
+    }
+    .RunningName-Container-RightSide-Block {
+        margin-top: 40px;
+        width: auto;
+    }
+    .ProElite-Name {
+        font-size: 40px;
+    }
+    .Sliding-Names {
+        font-size: 23px;
+        margin-left: 2%;
+    }
+    .Contact-Us-Button {
+        width: 36%;
+        height: 59px;
+        font-size: 13px;
+        padding: 0;
+        justify-content: center;
+    }
+    .Contact-Us-Logo {
+        font-size: 25px;
+        margin-right: 4px;
+    }
+    .RunningName-Container-LeftSide-Block {
+        width: auto;
+        height: 120%;
+    }
+    .FirstPage-LeftSide-Block-SlideImages {
+        width: 57%;
+        height: 98%;
+    }
+    .Running-Container-LeftSide-Scroll-Button {
+        color: #00000082;
+        font-size: 15px;
+        left: 33px;
+    }
+    .Services-Name {
+        font-size: 32px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-text:last-child {
+        font-size: 15px;
+    }
+    /* .card{
+        flex:none;
+    } */
+    .card-group {
+        display: block;
+    }
+    .Work-Container{
+        height: 43%;
+    }
+    .active {
+        margin-top: 0;
+    }
+    .img-Box-Size {
+        height: 60vh;
+    }
+    .Footer-Block {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 15vh;
+    }
+    .SecondBox-ServiceNowImg{
+        width: 97%;
+    }
+}
+@media screen and (max-width:425px  ){
+    .img-Box-Size {
+        height: 33vh;
+    }
+    .Heading-Info-SecondBox {
+        font-size: 20px;
+    }
+    .Services-Name {
+        font-size: 20px;
+    }
+    .ContactUs-Name-RightSide {
+        font-size: 22px;
+    }
+    .logo-Back-Color {
+        width: 45px;
+        height: 45px;
+    }
+    .dark-Info0Name {
+        font-size: 14px;
+    }
+    .ContactUs-Info-Msg {
+        text-align: left;
+        font-size: 14px;
+    }
+    .contact-wrap .form {
+        margin-top: 80px;
+    }
+    .content {
+        padding:0;
+    }
+}
+@media screen and (max-width:400px  ){
+    .nav-links {
+        width: 100%;
+        font-size: 17px;
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+    .Contact-Us-Button {
+        margin-left: 2%;
+        width: 48%;
+        height: 46px;
+        font-size: 11px;
+    }
+    
+    .FirstPage-LeftSide-Block-SlideImages {
+        width: 75%;
+        height: 79%;
+    }
+    .img-Box-Size {
+        height: 33vh;
+    }
+  
+}
+@media screen and (max-width:375px  ){
+    .contact-wrap .contact-info {
+        padding: 6%;
+    }
+    .ContactUs-Info-Blocks {
+        height: 13%;
+    }
+}

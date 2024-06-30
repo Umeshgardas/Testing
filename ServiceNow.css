@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+.ServiceNow-Container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    margin-top: 95px;
+    overflow: hidden;
+}
+.TalkAbout-Box{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.MainImgBox{
+    border: 1px solid rgba(255, 0, 0, 0);
+    width: 100%;
+    height: 55vh;
+    background-image: url(images/ServiceNowMain.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.TalkAbout-Text{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: end;
+    font-weight: 400;
+    margin-right:1%;
+}
+.Text-Link{
+    color: #007cc9;
+}
+.Text-Link:hover{
+    color: rgb(0, 34, 255);
+    border-bottom: 1px solid rgb(0, 34, 255);
+}
+.Main-Heading{
+    color: white;
+    width: 500px;
+    font-size: 45px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  
+}
+.Info-MainBox{
+    /* border: 1px solid white;  */
+    width: auto;
+    margin-left: 7%;
+    margin-top: 3%;
+    padding: 3%;
+}
+.more-Info{
+    width: 50%;
+    color: white;
+    font-weight: 400;
+}
+.Second-Box-ServiceNow{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+.ImgAndInfoBlocks{
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 350px;
+    padding: 3%;
+}
+.FirstBox-ServiceNowImg{
+    background-image: url(images/ServiceNow2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.MoreInfo-SecondBox{
+    color: black;
+    font-weight: 400;
+    text-align: justify;
+}
+.Second-Block-Same{
+    flex-direction: row-reverse;
+}
+.Capability-Container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex: 1 1 400px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.Capabilities-Name{
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 1.5%;
+}
+.CapabilitiesBoxes{
+    /* border: 1px solid black; */
+    width: auto;
+    height: fit-content;
+    display: flex;
+    /* flex-direction: column; */
+    padding-left: 9%;
+    gap: 2%;
+
+}
+.ImgBox-For-Capability{
+    /* border: 1px solid black; */
+    width: 60vw;
+    height: 100%;
+}
+.heading-capability{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.Col-Info{
+    margin-left: -10%;
+    padding-right: 5%;
+    width: 95%;
+    /* border: 1px solid green; */
+    border-top: 1px solid rgba(53, 53, 53, 0.547);
+    display: flex;
+    flex-direction: column;
+}
+.InfoMore-About-Capability{
+    color: black;
+    font-weight: 400;
+    text-align: justify;
+}
+.ViewPointCointer{
+    width: 100%;
+    height: auto;
+}
+.Heading-Info-SecondBox{
+    text-align: left;
+}
+.card-title {
+    text-align: left;
+}
